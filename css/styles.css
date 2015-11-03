@@ -1,0 +1,366 @@
+
+h4, h5, h6,
+h1, h2, h3 {margin: 0;}
+ul, ol {margin: 0;}
+p {margin: 0;}
+html, body{
+  font-family: 'Arial';
+   font-size: 100%;
+   background:#fff; 
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+}
+
+
+.account-man-menu {
+	border: 1px dashed gray;
+	float: right;
+	width:200px;
+	border: 1px dashed gray;
+}
+
+.account-man-logon {
+	display:none;
+	border: 1px dashed gray;
+	float: right;
+	width: 200px;
+}
+
+
+.header {
+  padding: 2em 0em 2em 0em;
+  border: 1px dashed gray; 
+}
+
+
+.header-c1 {
+	float:left;
+	border: 1px dashed red;
+	width:20%;	
+}
+
+.header-c2 {
+	float:right;
+	border: 1px dashed red;
+	width:80%;	
+	text-align:right;
+}
+
+.phone, .social-links {
+ border: 1px dashed red;
+ display:inline-block;
+ margin: 5px 10px 10px 0px;
+ text-align:right;
+}
+
+.company-menu {
+	border: 1px dashed blue;
+	float:right;
+	
+}
+
+.company-menu ul {
+	  list-style-type: none;
+    margin: 0;
+    padding: 0;
+       
+}
+
+.company-menu li {
+	    display: inline;
+	    padding: 10px 10px 10px 10px; 
+	    text-transform: uppercase;
+	    font-size:16px; 
+}
+
+
+.banner {
+  padding: 2em 0em 2em 0em;
+  border: 1px dashed gray;
+  background: url(../images/banner-bg-1600px.png)no-repeat center;
+   min-height: 660px;
+  background-size: cover;   
+}
+
+
+.search-menu-container {
+     border: 1px dashed yellow;
+     position:relative;
+     top:480px;
+     width:100%;
+     text-align:center;
+}
+
+.search-menu-container-item {
+     border: 1px dashed blue;
+     display:inline;
+     color:white;
+     padding: 0em 5em 0em 5em;
+     font-size:20px;
+}
+
+#menu-areas:hover .search-menu-popup {
+	visibility:visible;
+	/* Should also have toggling image - up and down arrow */
+}
+
+#menu-neighborhoods:hover .search-menu-popup {
+	visibility:visible;
+	/* Should also have toggling image - up and down arrow */
+}
+
+#menu-cities:hover .search-menu-popup {
+	visibility:visible;
+	/* Should also have toggling image - up and down arrow */
+}
+
+
+.search-menu-popup {
+	  border: 1px dashed white;
+	  position:absolute;
+    top:-100px;
+    width:100%;
+    height:102px;
+    visibility:hidden; 
+    /* Should add some transparency here */      
+}
+
+
+.search-menu-popup h2{
+   font-size:18px;
+   text-align:left;
+   margin: 0px 0px 10px 20px;
+}
+
+.search-menu-popup ul{
+  list-style-type: none;
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3; 
+  font-size:15px;
+ 
+}
+	 
+
+
+.search-menu-item li {
+    	display:inline-block;
+    	padding-bottom: 20px;	
+}
+
+.search-menu-default {
+	   border: 1px dashed yellow;
+     color:white;
+     position:relative;
+     top:500px;
+     width:100%;
+     text-align:left;
+}
+
+.search {
+  padding: 2em 0em 2em 0em;
+  border: 1px dashed gray; 
+  background-color:#EDEDED;
+}
+
+.neigh-featured {
+  padding: 2em 0em 2em 0em;
+  border: 1px dashed gray; 
+}
+
+
+.featured-image {
+	border: 1px dashed gray; 
+	width: 24%;
+  display: inline-block;
+  white-space: nowrap;
+	
+}
+
+.local-events {
+  padding: 2em 0em 2em 0em;
+  border: 1px dashed gray;
+  background-color:#EDEDED; 
+}
+
+.event-container {
+	 border: 1px dashed red; 
+	 height: 1050px;
+	 width:100%;
+	 overflow:hidden;
+	 
+	 
+}
+
+.event-image {
+	border: 1px dashed gray; 
+	width:300px;
+	height:350px;
+	display: inline-block;
+  white-space: nowrap;
+}
+
+
+.company-profile {
+  padding: 2em 0em 2em 0em;
+ border: 1px dashed gray; 
+}
+
+.company-intro {
+  border: 1px dashed blue;
+  width:48%;
+  float:left;	
+}
+.company-testimonials {
+	border: 1px dashed blue;
+	width:48%;
+  float:right;
+}
+
+		
+
+
+.lead-capture-social-media {
+  padding: 2em 0em 2em 0em;
+ border: 1px dashed gray; 
+}
+
+.lead-capture {
+	display:none;
+  padding: 2em 0em 2em 0em;
+  border: 1px dashed gray; 
+}
+
+.social-media {
+  padding: 2em 0em 2em 0em;
+  border: 1px dashed gray; 
+}
+
+.city-town {
+ padding: 2em 0em 2em 0em;
+ border: 1px dashed gray; 
+ background-color:#EDEDED; 
+}
+
+
+.footer {
+  padding: 2em 0em 2em 0em;
+  background-color: #171717;
+  border: 1px dashed gray;   
+}
+
+.container{
+	border: 1px dashed red;
+	
+	}
+	
+	
+
+/* Media Query Alterations */	
+
+@media only screen and (max-width: 768px) {
+  
+  .banner {
+       background: url(../images/banner-bg-768px.png)no-repeat center;
+       min-height: 616px;
+  }
+  
+   
+  
+}/* End Pad media screen size */
+
+
+@media only screen and (max-width: 480px) {
+  
+  .banner {
+       background: url(../images/banner-bg-480px.png)no-repeat center;
+       min-height: 605px;
+  }
+  
+  .search-menu-container {
+     top:420px;
+          
+   }
+   
+   .search-menu-default {
+	   top:440px;
+    }
+  
+  
+  	
+}/* End Phone landscape media screen size */
+
+@media only screen and (max-width: 320px) {
+  
+  .account-man-menu {
+  	display:none;
+  }
+  
+  .account-man-logon {
+  	display:block;
+  }
+  
+  .phone, .social-links {
+     display:none; 
+  }
+  
+      
+  .banner {
+       background: url(../images/banner-bg-320px.png)no-repeat center;
+       min-height: 559px;
+  }
+  
+  .search-menu-container {
+     top:380px;
+  }
+  
+  .search-menu-default {
+	   top:400px;
+   }
+
+  
+  .lead-capture {
+    display: block;
+  }
+  
+  .social-media {
+  	display: none;
+  }
+  
+  .featured-image {
+     width: 48%;
+   }
+   
+  .company-intro {
+    width:100%;
+    
+  }
+
+  .company-testimonials {
+	  width:100%;
+  }
+   	
+} /* End Phone media screen size */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
